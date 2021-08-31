@@ -2,6 +2,8 @@ const path = require('path');
 
 const plugins = require("./plugins")
 
+const rules = require("./rules")
+
 module.exports = {
     entry: './src/index.tsx',
     output: {
@@ -16,25 +18,7 @@ module.exports = {
         },
     },
     module: {
-        rules: [
-            {
-                test: /\.(ts|tsx)$/,
-                exclude: /node_modules/,
-                loader: 'babel-loader',
-            },
-            {
-                test: /\.(png|jpe?g|gif|woff|woff2|ttf|svg|ico)$/i,
-                use: [
-                    {
-                        loader: 'file-loader',
-                    },
-                ],
-            },
-            {
-                test: /\.css$/i,
-                use: ['style-loader', 'css-loader'],
-            },
-        ],
+        rules: rules
     },
     plugins: plugins
 };
