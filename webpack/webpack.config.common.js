@@ -1,6 +1,6 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const path = require('path');
+
+const plugins = require("./plugins")
 
 module.exports = {
     entry: './src/index.tsx',
@@ -36,13 +36,5 @@ module.exports = {
             },
         ],
     },
-    plugins: [
-        new CleanWebpackPlugin({
-            cleanStaleWebpackAssets: false,
-        }),
-        new HtmlWebpackPlugin({
-            template: './src/index.html',
-            favicon: "./src/content/statics/favicon.ico"
-        }),
-    ],
+    plugins: plugins
 };
