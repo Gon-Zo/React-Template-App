@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../content/statics/logo.svg'
+import Count from "./count";
 
 const App = () => {
     return (
@@ -13,10 +14,10 @@ const App = () => {
                     className="App-link"
                     href="https://reactjs.org"
                     target="_blank"
-                    rel="noopener noreferrer"
-                >
+                    rel="noopener noreferrer">
                     Learn React
                 </a>
+                <Count/>
             </header>
         </div>
     );
