@@ -5,11 +5,9 @@
 - webpack, babel, eslint, typescript, react 사용
 - redux, 사용
 
-## use project
+## 사용법
 
-### clone to project
-
-프로젝트를 클론 해준다.
+### git 을 클론 해준다.
 
 ```bash
 git clone https://github.com/Gon-Zo/React-Template-App.git
