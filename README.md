@@ -1,5 +1,9 @@
 # Start to Template 
 
+## 개발 환경 
+
+- webpack, babel, eslint, typescript, react 사용
+- redux, 사용
 
 ## use project
 
