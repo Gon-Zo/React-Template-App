@@ -1,13 +1,26 @@
 # Start to Template 
 
-1. clone to project </br>
+### 1. clone to project
 프로젝트를 클론 해준다.
+
 ```bash
 git clone https://github.com/Gon-Zo/React-Template-App.git
 ```
-2. .git remove </br>
+### 2. .git remove
  
 깃을 사용을 하기 때문에 본 mater 브랜치에서 사용을 하지 않도록 .git 폴더를 삭제
+
+### 3. root 에서 `npm install`
+
+### `npm dev`
+
+개발기에서 사용을 위한 명령어
+
+### `npm build`
+
+운영기에 올리기 위한 명령어 
+
+
 
 
 [comment]: <> (# Getting Started with Create React App)
